@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: aliceblue;" id="bodyRou">
+    <input type="text" id="in1" value="ilia emanuel">
+    <button onclick=check1()>check1</button>
+    <button onclick=check2()>check2</button>
+    <button onclick=check3()>check3</button>
+    <button onclick=check4()>check4</button>
+    <button onclick=check5()>check5</button>
+    <script>
+        // function check() {
+        //     for (let num = 100; num > -1; num--) {
+        //         console.log(num);
+
+        //     }
+        // }
+        // function check2() {
+        //     for (let num = 0; num > -100; num--) {
+        //         if(num % 3 == 0){
+        //             console.log(num)
+        //         }
+        //     }
+
+        // }
+        // function check3() {
+        //     for (let num = 0; num < 20; num++) {
+        //         console.log("ilia emanuel");
+
+        //     }
+
+        // }
+        // function check4() {
+        //     for (let num = 0; num < 100; num++) {
+        //         if(num % 5 == 0){
+        //             console.log(num)
+        //         }
+        //     }
+        // }
+        // function check5() {
+        //     for (let num = 0; num < 11; num++) {
+        //         if(num % 5 == 0 || num % 7 == 0){
+        //             console.log(num)
+        //         }
+        //     }
+        // }
+
+        // function check() {
+        //     index = 0;
+        //     while(index < 20){
+        //         console.log(index);
+        //         index++
+        //     }
+
+        // }
+        // function check2() {
+        //     index = 20;
+        //     while(index < 30){
+        //         console.log(index);
+        //         index++
+        //     }
+        // }
+        // function check3() {
+        //     index = 0;
+        //     while(index < 20){
+        //         console.log("ilia");
+        //         index++
+        //     }
+        // }
+        // function check4() {
+        //     index = 0;
+        //     while(index < 21){
+        //         if(index % 5 == 0){
+        //             console.log(index)
+        //         }
+        //         index++
+        //     }
+        // }
+        // function check5() {
+        //     index = 0;
+        //     while(index < 100){
+        //         if(index % 5 == 0 && index % 7 == 0){
+        //             console.log(index)
+        //         }
+        //         index++
+        //     }
+        // }
+
+        //  function check1() {
+        //     let r =[3,4,2,1,3]
+        //     index = 0;
+        //     while(index < r.length){
+        //         console.log(r[index])
+        //         index++
+        //     }
+        //     for (let dex = 0; dex < r.length; dex++) {
+        //         console.log(r[dex])
+        //     }
+        // }
+        // function check2(){
+        //     let r =[1,2,3,4,5,6,7,8,9,10]
+        //     for (let index = 0; index < r.length; index++) {
+        //         if(r[index] % 2 == 0){
+        //             console.log(r[index]);
+        //         }
+        //     }
+
+        //     let dex = 0;
+        //     while(dex < r.length){
+        //         if(r[dex] % 2 == 0)
+        //         {
+        //             console.log(r[dex])
+        //         }   
+        //         dex++
+        //     }
+        // }
+        // function check3(){
+        //     let r =[1,2,3,4,5,6,7,8,9,10]
+        //     let num = 0;
+        //     for (let index = 0; index < r.length; index++) {
+        //         num = num+= r[index];
+
+        //     }
+        //    console.log(num)
+        //     let index = 0;
+        //     let wnum = 0;
+        //     while(index < r.length){
+        //         wnum+= r[index]
+        //         index++
+
+        //     }
+        //     console.log(wnum)
+        // }
+        function check5() {
+            index = 0;
+            while (index > -201) {
+                if (index % 2 == 0) {
+                    console.log(index)
+                }
+                index--
+            }
+        }
+        function check4() {
+            index = 0;
+            let sum = 0
+            while (index > -101) {
+                if (index % 3 == 0) {
+                    sum += index;
+                }
+                index--
+            }
+            console.log(sum);
+        }
+
+        function check4() {
+            let arr = new Array(100)
+            let odd = 0
+            let even = 0
+        //    for (let index = 0; index < 101; index++) {
+        //     arr[index] = index
+        //     if(arr[index] % 2 == 0){
+        //         even += arr[index]
+        //     }else{
+        //         odd += arr[index]
+        //     }
+            
+        //    }
+        //    console.log('The sum of even numbers is ' + even + ' The sum of the odd numbers is ' + odd);
+
+           let i = 0
+           while(i < 101)
+           {
+            arr[i] = i;
+            if(arr[i] % 2 == 0){
+                even += arr[i]
+                i++
+            }else{
+                odd += arr[i]
+                i++
+            }
+           }
+           console.log(' With While The sum of even numbers is ' + even + ' The sum of the odd numbers is ' + odd);
+
+        }
+        
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
